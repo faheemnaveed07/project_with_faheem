@@ -1,3 +1,4 @@
 import 'package:flutter/material.dart';
 
-var myPrimaryColor=Colors.blue;
+var myPrimaryColor=Colors.deepPurpleAccent;
+double myFontSize=26;
