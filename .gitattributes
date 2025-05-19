@@ -1,0 +1,12 @@
+# Dart files ko primary language banane ke liye
+*.dart linguist-detectable=true
+
+# C++/Platform-specific folders ko ignore karne ke liye
+android/** linguist-detectable=false
+    ios/** linguist-detectable=false
+    windows/** linguist-detectable=false
+    macos/** linguist-detectable=false
+
+    # Optional: Aur generated files ko bhi ignore karein
+    .gradle/** linguist-detectable=false
+    build/** linguist-detectable=false
