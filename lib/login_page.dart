@@ -4,14 +4,14 @@ import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:project_clone/utils/constants.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+class welcome extends StatefulWidget {
+  const welcome({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  State<welcome> createState() => _LoginPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _LoginPageState extends State<welcome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
