@@ -90,6 +90,8 @@ class _LoginPageState extends State<LoginPage> {
         Gap(10),
         // Email Field
         Card(
+          margin: EdgeInsets.symmetric(horizontal: 12),
+          elevation: 4,
           child: TextField(
             keyboardType: TextInputType.emailAddress,
             decoration: InputDecoration(
@@ -105,6 +107,8 @@ class _LoginPageState extends State<LoginPage> {
 
         // Password Field
         Card(
+          margin: EdgeInsets.symmetric(horizontal: 12),
+          elevation: 4,
           child: TextField(
             obscureText: true, // Hide password characters
             decoration: InputDecoration(
